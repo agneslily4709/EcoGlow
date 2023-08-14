@@ -1,0 +1,116 @@
+body{
+    background-color: aliceblue;
+    margin: 0;
+}
+.session-header{
+    text-align: center;
+}
+.header-session{
+    margin-top: 20px;
+    width: auto;height: 80px;
+    background-color: #32cd32;
+}
+.header-content{
+    text-align: left;
+    margin: 0px 70px 0px 70px;
+    padding: 10px 0px 10px 0px;
+}
+.logo-text{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar-items{
+    float: right;
+}
+li {
+    display: inline;
+    margin-left: 20px;
+}
+.navbar-button{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #ffbf00;
+}
+.home-session{
+    height: 90vh; 
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)) no-repeat;
+    background-size: 100% 100%;
+    filter: brightness(100%);
+    opacity: 1;
+}
+.home-content{
+    font-size: 41px;
+    display: inline-block;
+    margin: 200px 70px 0px 70px;
+
+}
+.home-content p{
+    color: yellow;
+    text-align: center;
+    /* text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px yellow, 0 0 20px yellow, 0 0 25px yellow, 0 0 30px yellow, 0 0 35px yellow;    text-align: center; */
+}
+
+.feature-video{
+    width: 1000px;
+    height: 500px;
+}
+.testimonial-content{
+    /* background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),no-repeat; */
+    height: auto;
+    display: grid;
+    grid-template-columns: 800px auto;
+    width: 100%;
+    margin: 0px 70px 0px 70px;
+}
+.testimonial-text{
+    vertical-align: middle;
+    font-size: 20px;
+    border: 2px solid red;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    /* padding: 20px; */
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    /* margin: auto; */
+}
+.testimonial-img{
+    /* margin-left: 70px; */
+}
+.about-content{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    margin: 0px 70px 0px 70px;
+}
+.about-text{
+    display: inline;
+}
+.paper{
+    /* margin: auto; */
+    border: 4px solid green;
+    margin: 20px 20px 20px 20px;
+    padding: 10px;
+background: #fefddc;
+box-shadow:  20px 20px 60px #d8d7bb,
+             -20px -20px 60px #fffffd;
+}
+.paper-text{
+    font-size: 20px;
+}
+.contact-content{
+    height: 200px;
+    width: 100%;
+    margin: 0px 70px 0p 70px;
+    text-align: center;
+    background-color:#32cd32;
+    padding-top: 20px;
+    
+}
+.contact-items{
+
+}
+input{
+    text-decoration: none;
+}
